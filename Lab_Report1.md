@@ -27,8 +27,16 @@ Every student has a cse15l account which is linked to a remote server. Your user
 > 3. You can use two dots as an argument to change the directory to parent directory. ```cd ..``` 
 > 4. You can use a relative path to a subdirectory(red in this example) to change the directory to a subdirectory. ```cd red```
 > 5. You can give no arguments to change the directory to home directory. ```cd```
+
 ![cd and pwd commands](S5.png)
 
-    In this example, the home directory is cs15lsp23nc (Path: /home/linux/ieng6/cs15lsp23/cs15lsp23nc)
+   In this example, the home directory is cs15lsp23nc (Path: /home/linux/ieng6/cs15lsp23/cs15lsp23nc)
 
 2. ls and cat commands
+> 1. ls command takes a directory path(could be relative or absolute) as an argument and prints all the files and sub-directories in that directory.
+> 2. cat command takes one or more directory paths as an argument and prints the contents in them concatenated. 
+
+![ls commands](S6.png)
+The ```ls``` command prints the files and sub-directories in the working directory(cs15lsp23nc).\
+The ```ls ..``` command prints the files and sub-directories in the parent directory(cs15lsp23).\
+
