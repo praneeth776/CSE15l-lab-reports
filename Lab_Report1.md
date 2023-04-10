@@ -4,6 +4,7 @@ I will be demonstrating how to log into course-specific ieng6 account in this tu
 1. First, we have to install VScode on your laptop. For this go to <https://code.visualstudio.com/docs/setup/mac> and click on **Download Visual Studio Code**.
 ![Image](S1.png)
 2. In VScode, open the terminal.
+![Terminal](S2.png)
 
 
 ## Remotely Connecting
@@ -27,5 +28,7 @@ Every student has a cse15l account which is linked to a remote server. Your user
 > 4. You can use a relative path to a subdirectory(red in this example) to change the directory to a subdirectory. ```cd red```
 > 5. You can give no arguments to change the directory to home directory. ```cd```
 ![cd and pwd commands](S5.png)
+
+    In this example, the home directory is cs15lsp23nc (Path: /home/linux/ieng6/cs15lsp23/cs15lsp23nc)
 
 2. ls and cat commands
