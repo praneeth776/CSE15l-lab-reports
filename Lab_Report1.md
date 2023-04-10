@@ -21,7 +21,7 @@ Every student has a cse15l account which is linked to a remote server. Your user
 
 ## Trying some commands
 1. Lets try some cd and pwd commands.
-        > 1. cd command stands for "change directory". You can use this command prompt followed by different arguments to change directories.
-        > 2. You can use two dots as an argument to change the directory to parent directory. ```cd ..``` 
-        > 3. You can use a relative path to a subdirectory(red in this example) to change the directory to a subdirectory. ```cd red```
-        > 4. You can give no arguments to change the directory to home directory. ```cd```
+> 1. cd command stands for "change directory". You can use this command prompt followed by different arguments to change directories.
+> 2. You can use two dots as an argument to change the directory to parent directory. ```cd ..``` 
+> 3. You can use a relative path to a subdirectory(red in this example) to change the directory to a subdirectory. ```cd red```
+> 4. You can give no arguments to change the directory to home directory. ```cd```
