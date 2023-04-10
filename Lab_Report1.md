@@ -14,14 +14,18 @@ Every student has a cse15l account which is linked to a remote server. Your user
 3. Then you should enter the cs15l course-specific password and enter yes.
     ![Loging in to the remote server](S4.png)
     
-    Note that you won't be able to see your password on the screen though you are typing for security reasons.
+    Note that you won't be able to see your password on the screen though you are typing. This is for security reasons.
     
     
     ![Login message](S3.png)
 
 ## Trying some commands
 1. Lets try some cd and pwd commands.
-> 1. cd command stands for "change directory". You can use this command prompt followed by different arguments to change directories.
-> 2. You can use two dots as an argument to change the directory to parent directory. ```cd ..``` 
-> 3. You can use a relative path to a subdirectory(red in this example) to change the directory to a subdirectory. ```cd red```
-> 4. You can give no arguments to change the directory to home directory. ```cd```
+> 1. pwd command stands for "print working directory". This command prints the path of the working directory.
+> 2. cd command stands for "change directory". You can use this command prompt followed by different arguments to change directories.
+> 3. You can use two dots as an argument to change the directory to parent directory. ```cd ..``` 
+> 4. You can use a relative path to a subdirectory(red in this example) to change the directory to a subdirectory. ```cd red```
+> 5. You can give no arguments to change the directory to home directory. ```cd```
+![cd and pwd commands](S5.png)
+
+2. ls and cat commands
