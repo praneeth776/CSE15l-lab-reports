@@ -40,3 +40,5 @@ Every student has a cse15l account which is linked to a remote server. Your user
 The ```ls``` command prints the files and sub-directories in the working directory(cs15lsp23nc).\
 The ```ls ..``` command prints the files and sub-directories in the parent directory(cs15lsp23).\
 
+![cat commands](S7.png)
+
