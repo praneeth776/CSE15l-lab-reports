@@ -57,7 +57,7 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
-Bug: While updating the elements of second half of the array it uses the element of first half which are already updated.
+Bug: While updating the elements of second half of the array it uses the element of first half which are already updated.\
 Fix: In order to fix this issue, we should store the element of the first half in another field and update the element in the first half and later half in the same iteration. So we have to run the for loop only till the halfway mark.
 ```
 static void reverseInPlace(int[] arr) {
@@ -68,3 +68,10 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
+
+## Part-3:
+Over the weeks 2 and 3, I have learnt the following things
+1. Securely copying a file to a remote server using ```scp``` command.
+2. Creating a web server and updating it based on the input requests.
+3. Getting more comfortable with using GitHub features while coding. Not only for this course but also for CSE12.
+4. Finding and fixing bugs by analysing symptoms.
