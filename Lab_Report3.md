@@ -12,13 +12,15 @@ There is a variety of options available for `-less` command which can be really 
 > `less -N` displays the line numbers on the left
 > This option can be helpful for keeping track of lines.
 
-* Example1: Lets try running this command.
+* **Example1:** 
+Lets try running this command.
 ```
 less -N biomed/1471-2121-2-1.txt
 ```
 ![S3.1.png]
 
-* Example2: Now we will try the same command on a smaller file.
+* **Example2:** 
+Now we will try the same command on a smaller file.
 ```
 less -N plos/pmed.0020258.txt
 ```
@@ -26,7 +28,8 @@ less -N plos/pmed.0020258.txt
 ### Command option 2: `less -f`
 > `less -f` option forces the file to open anyways. Sometimes the contents of the file(maybe including binary data) may not be displayed properly. In such cases, this option is highly useful in opening the file.
 
-+ Example1: Lets try running this command on a binary file without using the option and then using the option
++ **Example1:** 
+Lets try running this command on a binary file without using the option and then using the option
 ```
 [cs15lsp23nc@ieng6-202]:technical:436$ less  plos/pmed.0020281.txt
 ``` 
@@ -38,7 +41,8 @@ The outputs is:
 When running the command with option, we can open the file directly.
 ![S3.3.png]
 
-+ Example2: 
++ **Example2:**
+  
 ### Command option 3: 
 > explain the option
 ```
