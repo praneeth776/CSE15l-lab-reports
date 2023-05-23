@@ -10,7 +10,9 @@
 2. ### Clone your fork of the repository from your Github account
 
     Keys pressed: `git clone git@github.com:praneeth776/lab7.git`,`<enter>`.   
-    ![Cloning my fork of the lab7 respiratory](S4.2.png).   
+    ![Cloning my fork of the lab7 respiratory](S4.2.png). 
+    
+    > Note: We have to use the ssh url to clone the respiratory rather than the https url. If we use the https url, we would not be able to push or commit our changes to the respiratory from our ieng6 account.    
     
     Now I have cloned my fork of the lab7 respiratory.
 
