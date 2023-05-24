@@ -17,14 +17,14 @@ Lets try running this command.
 ```
 less -N biomed/1471-2121-2-1.txt
 ```
-![S3.1.png]
+![](S3.1.png)
 
 * **Example2:** 
 Now we will try the same command on a smaller file.
 ```
 less -N plos/pmed.0020258.txt
 ```
-![S3.2.png]
+![](S3.2.png)
 ### Command option 2: `less -f`
 > `less -f` option forces the file to open anyways. Sometimes the contents of the file(maybe including binary data) may not be displayed properly. In such cases, this option is highly useful in opening the file.
 
@@ -39,7 +39,7 @@ The outputs is:
 ```
 
 When running the command with option, we can open the file directly.
-![S3.3.png]
+![](S3.3.png)
 
 + **Example2:**
   
