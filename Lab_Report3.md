@@ -34,6 +34,7 @@ Let's run this command:
 less --chop-long-lines plos/pmed.0020275.txt
 ```
 The outputs is: 
+
 ```
  Dementia remains an incurable condition and its increasing prevalence is a deeply
         worrying aspect of the “graying” of the population. An important question for researchers
