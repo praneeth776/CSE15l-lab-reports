@@ -238,6 +238,10 @@ less --shift=4 plos/pmed.0020278.txt
 
 The output is:
 ```
+        
+        
+        
+        
         The only people who don't know in 2005 that animal research is irrelevant for human
         disease are those who don't understand it or those who benefit from it. As a physician,
         clinical researcher, and former animal researcher, I know that though they are our closest
