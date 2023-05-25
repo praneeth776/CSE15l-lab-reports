@@ -88,7 +88,7 @@ Let's run this command on a different file:
 ```
 less --chop-long-lines plos/pmed.0020274.txt
 ```
-The output is:
+The output is:            
 ```
  
         The World Health Organization estimates that about 20% of all deaths in children younger
