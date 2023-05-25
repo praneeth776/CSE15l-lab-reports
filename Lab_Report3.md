@@ -25,30 +25,27 @@ Now we will try the same command on a smaller file.
 less -N plos/pmed.0020258.txt
 ```
 ![](S3.2.png)
-### Command option 2: `less -f`
-> `less -f` option forces the file to open anyways. Sometimes the contents of the file(maybe including binary data) may not be displayed properly. In such cases, this option is highly useful in opening the file.
-
+### Command option 2: `less --chop-long-lines`
+> `less --chop-long-lines` option chops long lines so that the line fits on the page.
+> removes part of the line that extends longer than the width of the terminal.
 + **Example1:** 
-Lets try running this command on a binary file without using the option and then using the option
-```
-[cs15lsp23nc@ieng6-202]:technical:436$ less  plos/pmed.0020281.txt
-``` 
+
 The outputs is:
-```
-"plos/pmed.0020281.txt" may be a binary file.  See it anyway?
-```
+
 
 When running the command with option, we can open the file directly.
 ![](S3.3.png)
 
 + **Example2:**
   
-### Command option 3: 
-> explain the option
+### Command option 3: `less -p "<any word>"`
+> `less -p` option will search for the pattern from the given specified word.
+> the pattern starts when the first word is found.
 ```
 ```
-### Command option 4:
-> explain the option
+### Command option 4: `less -S long_file.txt`
+> `less -S` option truncates long lines so that they fit within the width of the terminal.
+> prevents lines from wrapping.
 ```
 ```
 
