@@ -147,7 +147,8 @@ The output is:
 Let's try running this on a smaller file:
 ```
 ```
-The output is:
+The output is:    
+
 ```
         alternative approach to trials in animals not only can mimic the human patterns of repeated
         low-dose exposure, but also can remove one concern for animal researchers—the need to use
@@ -176,12 +177,16 @@ The output is:
         treatments against infections by other pathogens could be usefully modeled in this way as
         well.
 ```
+
 + **Example2:** 
-Let's run this on a larger file:
+Let's run this on a larger file:   
+
 ```
 less -p "Conclusion" biomed/1468-6708-3-1.txt
-```
-The output is:
+``` 
+
+The output is:     
+
 ```
         Conclusion
         Recommendations for desirable weight have been
@@ -215,13 +220,21 @@ The output is:
         YOL Years of life
       
 ```
+ 
 ### Command option 4: `less --shift=<any number>`
+
 > `less --shift=<any number>` option shifts the text over the desired number horizontally
+
+
 + **Example1:** 
+
+
 Let's shift this file 4 times:
+
 ```
 less --shift=4 plos/pmed.0020278.txt
 ```
+
 The output is:
 ```
         
