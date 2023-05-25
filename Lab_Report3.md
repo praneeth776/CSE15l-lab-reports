@@ -358,7 +358,7 @@ For my source I have used ChatGpt to help me with this lab.
 - definition given was = *"The -p option allows you to specify a pattern to search for when opening a file with less. It positions the cursor at the first occurrence of the pattern."*
 
 **Fourth Example**
-- In this fourth example the output was ` less --shift=4 file.txt`
+- In this fourth example the output was `less --shift=4 file.txt`.   
 - For this example I changed the number to shift the file and the file itself
 - defintion given was = *"The --shift option specifies the number of positions to shift the displayed text horizontally. Positive values shift right, and negative values shift left."*
 
