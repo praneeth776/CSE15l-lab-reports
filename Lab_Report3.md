@@ -12,6 +12,9 @@ There is a variety of options available for `-less` command which can be really 
 > `less -N` displays the line numbers on the left
 > This option can be helpful for keeping track of lines.
 
+**Significance:**
+- `less -N` is useful when you have a large txt file with many lines and when it gets too confusing you can use this command to keep track of all the lines and have an idea of the order. 
+
 * **Example1:** 
 Lets try running this command.
 ```
@@ -28,6 +31,10 @@ less -N plos/pmed.0020258.txt
 ### Command option 2: `less --chop-long-lines`
 > `less --chop-long-lines` option chops long lines so that the line fits on the page.
 > removes part of the line that extends longer than the width of the terminal.
+
+**Significance:**
+- This command allows the text to fit on the page for a better layout of the page. Lets say if we have a file that is too large to read and the words expand larger than the width, we can use this command to just cut off every word that is off the page and have it actually fit. 
+
 + **Example1:** 
 Let's run this command:
 ```
@@ -142,6 +149,8 @@ The output is:
 > `less -p` option will search for the pattern from the given specified word.
 > the pattern starts when the first word is found.
 
+**Significance:**
+- This command is useful when there is a large file and you want to start reading the file from when the specific word shows up in the text. There could be a particular word such as "Conclusion" and we want to start reading the information from there, we can use this command to have the pattern start from that word instead of searching through the entire file finding that word. 
 
 + **Example1:** 
 Let's try running this on a smaller file:
@@ -226,7 +235,8 @@ The output is:
 
 > `less --shift=<any number>` option shifts the text over the desired number horizontally
 
-
+**Significance:**
+- This command can be very useful when the text in the file is off balanced or shifted wrongly. We can say that the text in a file might be shifted to down. We can shift it back up to fit more into the box so it can be easier to read instead of just scrolling endlessly. 
 + **Example1:** 
 
 
