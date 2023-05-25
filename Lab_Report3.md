@@ -141,6 +141,8 @@ The output is:
 ### Command option 3: `less -p "<any word>"`
 > `less -p` option will search for the pattern from the given specified word.
 > the pattern starts when the first word is found.
+
+
 + **Example1:** 
 Let's try running this on a smaller file:
 ```
