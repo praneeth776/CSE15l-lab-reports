@@ -328,4 +328,28 @@ The output is:
         of animal research to the historical dustbin, PLoS has chosen to re-introduce an
         anachronistic, medically discredited, and unethical research tool to its reporting.
 ```
+For my source I have used ChatGpt to help me with this lab.
+- I have asked ChatGpt to give me 8 options for the `less` command. The output of this gave me 8 different options and the defintions of each command(why it might be important to use on a different ocassion.)
+- So I ended up taking up 4 of the commands and some of the defintions.
+
+**First Example**
+- In this first example it gave me `less -N file.txt`
+- I changed the file name of this command
+- And the definition it gave me was = *"The -N option displays line numbers while viewing a file with less." and "This option is useful when you need to reference specific lines in a file or when working with code files."*
+
+**Second Example**
+- In the second example the output was `less --chop-long-lines long_line.txt`
+- I also changed the file name 
+- defintion given was = *"The --chop-long-lines option chops long lines without wrapping them. It removes the part of the line that extends beyond the width of the terminal."*
+
+**Third Example**
+- In this third example the output was `less -p "example" file.txt`
+- For this example I changed the word within the quotations and the file
+- definition given was = *"The -p option allows you to specify a pattern to search for when opening a file with less. It positions the cursor at the first occurrence of the pattern."*
+
+**Fourth Example**
+- In this fourth example the output was ` less --shift=4 file.txt`
+- For this example I changed the number to shift the file and the file itself
+- defintion given was = *"The --shift option specifies the number of positions to shift the displayed text horizontally. Positive values shift right, and negative values shift left."*
+
 
