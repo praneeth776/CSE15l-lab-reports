@@ -146,6 +146,7 @@ The output is:
 + **Example1:** 
 Let's try running this on a smaller file:
 ```
+less -p "alternative" biomed/1468-6708-3-1.txt
 ```
 The output is:    
 
