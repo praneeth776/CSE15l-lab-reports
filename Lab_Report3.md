@@ -138,11 +138,95 @@ The output is:
 ### Command option 3: `less -p "<any word>"`
 > `less -p` option will search for the pattern from the given specified word.
 > the pattern starts when the first word is found.
++ **Example1:** 
+Let's try running this on a smaller file:
 ```
+```
+The output is:
+```
+        alternative approach to trials in animals not only can mimic the human patterns of repeated
+        low-dose exposure, but also can remove one concern for animal researchers—the need to use
+        very large numbers of animals in experiments.
+        What the researchers did was use statistical power analysis to compare a single low-dose
+        challenge design, in which each animal is challenged only once, and a repeated low-dose
+        challenge design, in which each animal is challenged until it is infected or a
+        predetermined maximum number of challenges is reached. The statistical power of an
+        experimental design—a measure of the statistical quality—was assessed by simulating
+        experiments, evaluating them, and then repeating the procedure thousands of times.
+        What they found was that the experimental design using a single low dose of virus in
+        each animal required unfeasibly large numbers of animals; even for the highest modeled
+        vaccine efficacy of 90% the single low-dose challenge design required more than 20 animals
+        per group to reach a statistical power of 95%. However, when the researchers modeled a
+        protocol of repeatedly challenging the (virtual) animals with a challenge dose of one 
+        ID
+        50 , and allowing for a maximum number of 20 challenges of each
+        individual animal, as few as five animals were required to achieve more than 95% of
+        statistical power.
+        Where do these results leave the design of HIV trials? To begin with, the results should
+        encourage researchers to develop animal models that reflect, to the fullest extent
+        possible, what is known about the natural history and pathogenesis of the disease in
+        humans, rather than designing trials to fit the animal models that are available. The
+        authors have made available the programming script of their analysis so anyone can repeat
+        it; it would be interesting to know whether preclinical trials assessing vaccines or
+        treatments against infections by other pathogens could be usefully modeled in this way as
+        well.
+```
++ **Example2:** 
+Let's run this on a larger file:
+```
+less -p "Conclusion" biomed/1468-6708-3-1.txt
+```
+The output is:
+```
+        Conclusion
+        Recommendations for desirable weight have been
+        criticized for emphasizing mortality rather than health. We
+        found associations between YHL and obesity that were not
+        present in the mortality analysis, suggesting that YHL may
+        be a more sensitive measure of the burden of obesity in
+        older adults, especially for women. Future efforts to
+        determine desirable weight guidelines should include
+        measures of YHL. Using either YOL or YHL, however, we found
+        no excess risk for older adults who would be classified as
+        'overweight' by the NHLBI guidelines. This suggests using
+        YHL as the outcome measure in clinical trials involving
+        obese or underweight older adults, and discouraging trials
+        that address older adults who are merely overweight.
+      
+      
+        Competing interests
+        None declared
+      
+      
+        Abbreviations
+        BMI Body mass index
+        CESD Center for Epidemiologic Studies Depression
+        Scale
+        CHS Cardiovascular Health Study
+        EVGFP Is your health excellent, very good, good, fair or
+        poor?
+        QALY Quality-adjusted life years
+        YHL Years of healthy life
+        YOL Years of life
+      
 ```
 ### Command option 4: `less -S long_file.txt`
 > `less -S` option truncates long lines so that they fit within the width of the terminal.
 > prevents lines from wrapping.
++ **Example1:** 
+Let's run this on a larger file:
 ```
+```
+The output is:
+```
+
+```
++ **Example2:** 
+Let's run this on a larger file:
+```
+```
+The output is:
+```
+
 ```
 
