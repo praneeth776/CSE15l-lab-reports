@@ -85,10 +85,12 @@ The outputs is:
 ```
 
 + **Example2:**
-Let's run this command on a different file:
+Let's run this command on a different file:    
+
 ```
 less --chop-long-lines plos/pmed.0020274.txt
 ```
+
 The output is:            
 ```
  
